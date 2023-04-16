@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Westtours</title>
+    <link rel="stylesheet" href="./west.css">
+    <!-- font 1 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section>
+       <h1>West Tours</h1> 
+       
+    </section>
+    <section>
+        <div class="container reveal">
+            <h2>Jungle and Wild Animals</h2>
+            <div class="cards">
+                <div class="text-card">
+                    <h3>East Africa</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab error architecto, mollitia quasi recusandae amet harum, non quae et temporibus molestias tenetur, accusantium vel.</p>
+                    <a href="">Explore</a>
+                </div>
+                <div class="text-card">
+                    <h3>East Africa</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab error architecto, mollitia quasi recusandae amet harum, non quae et temporibus molestias tenetur, accusantium vel.</p>
+                    <a href="">Explore</a>
+
+                </div>
+                <div class="text-card">
+                    <h3>East Africa</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab error architecto, mollitia quasi recusandae amet harum, non quae et temporibus molestias tenetur, accusantium vel.</p>
+                    <a href="">Explore</a>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ---------------------------------------------------------------------------- -->
+    <section>
+        <div class="container reveal">
+            <h2>Mountinous and cold areas</h2>
+            <div class="cards">
+                <div class="text-card">
+                    <h3>East Africa</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab error architecto, mollitia quasi recusandae amet harum, non quae et temporibus molestias tenetur, accusantium vel.</p>
+                    <a href="">Explore</a>
+
+                </div>
+                <div class="text-card">
+                    <h3>East Africa</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab error architecto, mollitia quasi recusandae amet harum, non quae et temporibus molestias tenetur, accusantium vel.</p>
+                    <a href="">Explore</a>
+                </div>
+                <div class="text-card">
+                    <h3>East Africa</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab error architecto, mollitia quasi recusandae amet harum, non quae et temporibus molestias tenetur, accusantium vel.</p>
+                    <a href="">Explore</a>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--  ------------------------------------------------------------------------------------->
+    <section>
+        <div class="container reveal">
+            <h2>Marine and Beaches</h2>
+            <div class="cards">
+                <div class="text-card">
+                    <h3>East Africa</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab error architecto, mollitia quasi recusandae amet harum, non quae et temporibus molestias tenetur, accusantium vel.</p>
+                    <a href="">Explore</a>
+
+                </div>
+                <div class="text-card">
+                    <h3>East Africa</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab error architecto, mollitia quasi recusandae amet harum, non quae et temporibus molestias tenetur, accusantium vel.</p>
+                <a href="">Explore</a>
+
+                </div>
+
+                <div class="text-card">
+                    <h3>East Africa</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab error architecto, mollitia quasi recusandae amet harum, non quae et temporibus molestias tenetur, accusantium vel.</p>
+                    <a href="">Explore</a>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        end
+    
+    </footer>
+    
+    <script type="text/javascript">
+window.addEventListener('scroll',reveal)
+
+function reveal()
+ {
+   var reveals= document.querySelectorAll(".reveal")
+   for (let i = 0; i < reveals.length; i++) 
+   {
+    var windowheight= window.innerHeight;
+    var revealtop = reveals[i].getBoundingClientRect().top;
+    var revealpoint =150;
+
+    if(revealtop > windowheight - revealpoint)
+    {
+reveals[i].classList.add('active');
+
+    }
+    else
+    {
+reveals[i].classList.remove('active');
+
+    }
+   }
+    
+}
+
+    </script>
+</body>
+</html>
